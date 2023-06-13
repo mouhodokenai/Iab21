@@ -1,12 +1,12 @@
-import java.util.HashSet;
+
 import java.util.LinkedHashSet;
-import java.util.List;
+
 import java.util.Set;
 
 public class Group implements Subject {
     private String name;
     private Set<Observer> observers;
-    private List<String> notifications;
+
 
     public Group(String name) {
         this.name = name;
